@@ -5,7 +5,7 @@
     "fecha": "4 de septiembre de 2025",
     "autor": "Área de Educación Física",
     "imagen": "/images/noticias/torneo.jpg",
-    "enlace": "/blog/campeonato-deportivo.html"
+    "enlace": "/blog/campeonato-deportivo"
   },
   {
     "titulo": "Visita al Puente Chacao",
@@ -13,7 +13,7 @@
     "fecha": "28 de agosto de 2025",
     "autor": "Equipo de comunicaciones",
     "imagen": "/images/noticias/Puente.jpg",
-    "enlace": "/blog/visita-puente-chacao.html"
+    "enlace": "/blog/visita-puente-chacao"
   },
   {
     "titulo": "Taller sobre el medio ambiente",
@@ -21,7 +21,7 @@
     "fecha": "22 de agosto de 2025",
     "autor": "Área Ambiental",
     "imagen": "/images/noticias/planta1.jpg",
-    "enlace": "/blog/arbol-liceo-rayen.html"
+    "enlace": "/blog/arbol-liceo-rayen"
   },
   {
     "titulo": "Campeonato de matemáticas",
@@ -29,7 +29,7 @@
     "fecha": "2 de junio de 2025",
     "autor": "Equipo de comunicaciones",
     "imagen": "/images/noticias/mate1.jpg",
-    "enlace": "/blog/campeonato-mate-frontera.html"
+    "enlace": "/blog/campeonato-mate-frontera"
   },
   {
     "titulo": "Visita del (CR)2 al liceo",
@@ -37,7 +37,7 @@
     "fecha": "20 de mayo de 2025",
     "autor": "Equipo de comunicaciones",
     "imagen": "/images/noticias/cr2.jpg",
-    "enlace": "/blog/visita-charla-cr2.html"
+    "enlace": "/blog/visita-charla-cr2"
   },
   {
     "titulo": "Distinción a ex alumna",
@@ -45,6 +45,6 @@
     "fecha": "5 de mayo de 2025",
     "autor": "Área de comunicaciones",
     "imagen": "/images/noticias/alum.jpg",
-    "enlace": "/blog/ex-alumna-rayen.html"
+    "enlace": "/blog/ex-alumna-rayen"
   }
 ]
