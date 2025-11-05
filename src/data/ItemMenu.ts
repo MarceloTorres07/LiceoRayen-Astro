@@ -3,7 +3,7 @@ export const menuItems = [
   {
     label: "INSTITUCIÓN",
     submenu: [
-      { label: "Historia", href: "../nav/historia.html" },
+      { label: "Historia", href: "../nav/historia" },
       { label: "Equipo Directivo", href: "/nav/equipo directivo.html" },
     ],
   },
