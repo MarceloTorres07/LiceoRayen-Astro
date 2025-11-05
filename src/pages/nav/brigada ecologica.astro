@@ -1,12 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ecoImg from '../../assets/images/menu/eco.jpg';
 ---
 
 <Layout>
   <div class="max-w-5xl mx-auto px-4 my-12">
     <section
       class="relative rounded-lg shadow-lg overflow-hidden w-full h-[600px] bg-cover bg-center"
-      style="background-image: url('/src/assets/images/menu/eco.jpg');"
+      style={`background-image: url('${ecoImg.src}');`}
     >
       <!-- Capa oscura separada -->
       <div class="absolute inset-0 bg-black/60 z-0"></div>

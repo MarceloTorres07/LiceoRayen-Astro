@@ -1,32 +1,33 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/Layout.astro';
+import gastronomiaImg from '../../assets/images/menu/gastronomia.jpg';
 ---
 
 <Layout>
-    
-    <!-- Contenido principal -->
-    <div class="md:col-span-3">
-  <section class="relative rounded-lg shadow-lg overflow-hidden h-[600px] bg-cover bg-center" style="background-image: url('/src/assets/images/menu/gastronomia.jpg');">
-    
-    <!-- Capa oscura separada -->
-    <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, 0.6); z-index: 0;"></div>
+  <!-- Contenido principal -->
+  <div class="md:col-span-3">
+    <section
+      class="relative rounded-lg shadow-lg overflow-hidden h-[600px] bg-cover bg-center"
+      style={`background-image: url('${gastronomiaImg.src}');`}
+    >
+      <!-- Capa oscura separada -->
+      <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, 0.6); z-index: 0;"></div>
 
-    <!-- Contenido encima -->
-    <div class="relative z-10 p-10 h-full flex flex-col justify-center">
-      <h3 class="text-center text-3xl font-bold text-white mb-6">Área Técnica de Gastronomía</h3>
+      <!-- Contenido encima -->
+      <div class="relative z-10 p-10 h-full flex flex-col justify-center">
+        <h3 class="text-center text-3xl font-bold text-white mb-6">Área Técnica de Gastronomía</h3>
 
-      <p class="text-white text-lg leading-relaxed">
-        El área técnica de Gastronomía del Liceo Rayen Mapu se enfoca en la formación de estudiantes con habilidades y conocimientos
-        para desempeñarse en el mundo de la cocina profesional. Esta especialidad, orientada al sector de la hotelería y el turismo,
-        te prepara para trabajar en diversos establecimientos.
-      </p>
+        <p class="text-white text-lg leading-relaxed">
+          El área técnica de Gastronomía del Liceo Rayen Mapu se enfoca en la formación de estudiantes con habilidades y conocimientos
+          para desempeñarse en el mundo de la cocina profesional. Esta especialidad, orientada al sector de la hotelería y el turismo,
+          te prepara para trabajar en diversos establecimientos.
+        </p>
 
-      <p class="text-white text-lg leading-relaxed mt-4">
-        Los estudiantes aprenden técnicas culinarias, manipulación de alimentos, presentación de platos y gestión de cocina,
-        desarrollando competencias que les permiten integrarse al mundo laboral con una sólida base técnica y ética profesional.
-      </p>
-    </div>
-  </section>
-</div>
-
+        <p class="text-white text-lg leading-relaxed mt-4">
+          Los estudiantes aprenden técnicas culinarias, manipulación de alimentos, presentación de platos y gestión de cocina,
+          desarrollando competencias que les permiten integrarse al mundo laboral con una sólida base técnica y ética profesional.
+        </p>
+      </div>
+    </section>
+  </div>
 </Layout>

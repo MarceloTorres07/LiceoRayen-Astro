@@ -1,34 +1,34 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/Layout.astro';
+import construImg from '../../assets/images/menu/contru.jpg';
 ---
 
 <Layout>
-    
-    <div class="md:col-span-3">
-  <section class="relative rounded-lg shadow-lg overflow-hidden h-[600px] bg-cover bg-center" style="background-image: url('/src/assets/images/menu/contru.jpg');">
-    
-    <!-- Capa oscura separada -->
-    <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, 0.6); z-index: 0;"></div>
+  <div class="md:col-span-3">
+    <section
+      class="relative rounded-lg shadow-lg overflow-hidden h-[600px] bg-cover bg-center"
+      style={`background-image: url('${construImg.src}');`}
+    >
+      <!-- Capa oscura separada -->
+      <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, 0.6); z-index: 0;"></div>
 
-    <!-- Contenido encima -->
-    <div class="relative z-10 p-10 h-full flex flex-col justify-center">
-      <h3 class="text-center text-3xl font-bold text-white mb-6">Área Técnica de Construcción</h3>
+      <!-- Contenido encima -->
+      <div class="relative z-10 p-10 h-full flex flex-col justify-center">
+        <h3 class="text-center text-3xl font-bold text-white mb-6">Área Técnica de Construcción</h3>
 
-      <p class="text-white text-lg leading-relaxed">
-        El área técnica de Construcción del Liceo Rayen Mapu se enfoca en la formación de estudiantes con conocimientos y habilidades
-        para desempeñarse en el sector de la construcción, con una especialización particular en las Terminaciones de la Construcción.
-      </p>
+        <p class="text-white text-lg leading-relaxed">
+          El área técnica de Construcción del Liceo Rayen Mapu se enfoca en la formación de estudiantes con conocimientos y habilidades
+          para desempeñarse en el sector de la construcción, con una especialización particular en las Terminaciones de la Construcción.
+        </p>
 
-      <p class="text-white text-lg leading-relaxed mt-4">
-        Esta especialidad es clave para la industria, ya que se encarga de los acabados finales de una obra, que determinan su calidad y funcionalidad.
-      </p>
+        <p class="text-white text-lg leading-relaxed mt-4">
+          Esta especialidad es clave para la industria, ya que se encarga de los acabados finales de una obra, que determinan su calidad y funcionalidad.
+        </p>
 
-      <p class="text-white text-lg leading-relaxed mt-4">
-        Los estudiantes aprenden técnicas de revestimiento, pintura, instalación de cerámicas, pisos flotantes y otros elementos que aportan valor estético y técnico a las edificaciones.
-      </p>
-    </div>
-  </section>
-</div>
-
-
+        <p class="text-white text-lg leading-relaxed mt-4">
+          Los estudiantes aprenden técnicas de revestimiento, pintura, instalación de cerámicas, pisos flotantes y otros elementos que aportan valor estético y técnico a las edificaciones.
+        </p>
+      </div>
+    </section>
+  </div>
 </Layout>

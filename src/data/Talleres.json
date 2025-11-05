@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Rayen Rock",
-    "imagen": "/src/assets/images/menu/rock2.jpg",
+    "imagen": "/images/menu/rock2.jpg",
     "descripcion": [
       "Rayen Rock es el taller de rock del Liceo Rayen Mapu. Es una de las actividades extraprogramáticas que ofrece el liceo para que los estudiantes exploren y desarrollen su talento musical.",
       "En el taller, los alumnos tienen acceso a instrumentos y equipos para aprender y practicar este estilo musical. También participan en eventos locales y provinciales.",
@@ -10,7 +10,7 @@
   },
   {
     "nombre": "Chumaiguén – Taller de Folclor",
-    "imagen": "/src/assets/images/menu/chu2.jpg",
+    "imagen": "/images/menu/chu2.jpg",
     "descripcion": [
       "Chumaiguén es el nombre del taller de folclor del Liceo Rayen Mapu. Su objetivo principal es que los estudiantes aprendan y practiquen cantos y danzas tradicionales de la cultura de Chiloé.",
       "Este taller es parte de la identidad del liceo, ya que la institución valora y rescata la cultura local Williche-Chilota.",
@@ -19,7 +19,7 @@
   },
   {
     "nombre": "Milén – Taller de Patrimonio Cultural",
-    "imagen": "/src/assets/images/menu/mile2.jpg",
+    "imagen": "/images/menu/mile2.jpg",
     "descripcion": [
       "Milén es el nombre del taller de patrimonio cultural del Liceo Rayen Mapu. Su propósito principal es que los estudiantes rescaten, valoren y difundan las tradiciones y la historia de la cultura Williche-Chilota.",
       "Los alumnos investigan leyendas, mitos, costumbres y el idioma local, y organizan eventos que promueven la identidad de Chiloé."
