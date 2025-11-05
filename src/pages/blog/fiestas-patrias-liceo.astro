@@ -1,56 +1,81 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/Layout.astro';
+import fiestasImg from '../../assets/images/noticias/fiestas-en.jpg';
+import desayunoImg from '../../assets/images/noticias/desayuno.jpg';
+import decoImg from '../../assets/images/noticias/deco.jpg';
+import extranImg from '../../assets/images/noticias/extran.jpg';
 ---
 
 <Layout>
-
-
-
-
   <main class="container mx-auto px-4 py-8">
     <article class="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
-    
-      <img src="/src/assets/images/noticias/fiestas-en.jpg" alt="Celebración Fiestas Patrias" class="w-full h-64 object-cover rounded mb-6 shadow-md" />
+      <img
+        src={fiestasImg.src}
+        alt="Celebración Fiestas Patrias"
+        class="w-full h-64 object-cover rounded mb-6 shadow-md"
+      />
 
-      <h1 class="text-3xl font-bold mb-2 text-gray-800">Estudiantes del Liceo Rayen Mapu celebran las Fiestas Patrias</h1>
+      <h1 class="text-3xl font-bold mb-2 text-gray-800">
+        Estudiantes del Liceo Rayen Mapu celebran las Fiestas Patrias
+      </h1>
       <p class="text-sm text-gray-500 mb-6">Publicado el 12 de septiembre de 2025 · Redacción: Equipo de comunicaciones</p>
 
       <div class="space-y-4 text-gray-700 leading-relaxed text-justify">
-        <p>En el marco de las celebraciones por las Fiestas Patrias, los estudiantes del <strong>Liceo Rayen Mapu</strong> organizaron una jornada llena de actividades culturales, recreativas y gastronómicas que llenaron de entusiasmo el establecimiento.</p>
-        <p>En la primera parte de las celebraciones, los cursos disfrutarón de un rico desayuno dieciochero amenizado por nuestro folclore nacional.</p>
+        <p>
+          En el marco de las celebraciones por las Fiestas Patrias, los estudiantes del <strong>Liceo Rayen Mapu</strong> organizaron una jornada llena de actividades culturales, recreativas y gastronómicas que llenaron de entusiasmo el establecimiento.
+        </p>
+        <p>
+          En la primera parte de las celebraciones, los cursos disfrutaron de un rico desayuno dieciochero amenizado por nuestro folclore nacional.
+        </p>
 
-      <div class="my-6">
-          <img src="/src/assets/images/noticias/desayuno.jpg" alt="Estudiantes celebrando Fiestas Patrias" class="w-1/2 max-w-3xl mx-auto rounded shadow-md" />
+        <div class="my-6">
+          <img
+            src={desayunoImg.src}
+            alt="Estudiantes celebrando Fiestas Patrias"
+            class="w-1/2 max-w-3xl mx-auto rounded shadow-md"
+          />
           <p class="text-sm text-gray-500 text-center mt-2">Estudiantes desayunando durante la celebración</p>
+        </div>
+
+        <p>
+          Después del desayuno, los estudiantes participaron de diversos juegos tradicionales y competencias en las cuales los docentes del liceo se sumaron para generar un mejor vínculo con los estudiantes.
+        </p>
+        <p>
+          La comunidad educativa —incluyendo docentes, apoderados y directivos— que participaron activamente, destacaron el compromiso de los estudiantes por preservar las tradiciones chilenas y fomentar el sentido de identidad nacional.
+        </p>
+
+        <blockquote class="border-l-4 border-yellow-400 pl-4 italic text-gray-600">
+          “Fue una experiencia muy bonita. Pudimos compartir, aprender y disfrutar juntos como comunidad”, comentó una estudiante de tercero medio que participó en el grupo de danza folclórica.
+        </blockquote>
+
+        <div class="my-6">
+          <img
+            src={decoImg.src}
+            alt="Estudiantes celebrando Fiestas Patrias"
+            class="w-1/2 max-w-3xl mx-auto rounded shadow-md"
+          />
+          <p class="text-sm text-gray-500 text-center mt-2">Estudiantes en trajes típicos</p>
+        </div>
+
+        <p>
+          En esta oportunidad, el Liceo Rayen Mapu abrió las fronteras a nuestros países hermanos y todos los estudiantes extranjeros pudieron disfrutar de la música y gastronomía de su país y del nuestro.
+        </p>
+
+        <div class="my-6">
+          <img
+            src={extranImg.src}
+            alt="Estudiantes celebrando Fiestas Patrias"
+            class="w-1/2 max-w-3xl mx-auto rounded shadow-md"
+          />
+          <p class="text-sm text-gray-500 text-center mt-2">Estudiantes de Haití</p>
+        </div>
+
+        <p>
+          La jornada cerró con una cuecada masiva en la cancha principal, donde todos los cursos se unieron para bailar y celebrar con orgullo las raíces de nuestro país.
+        </p>
       </div>
 
-      <p>Despues del desayuno los estudiantes participarón de diversos juegos tradicionales y competencias en las cuales los docentes del liceo se sumarón para generar un mejor vonculo con los estudiantes.</p>
-      <p>La comunidad educativa —incluyendo docentes, apoderados y directivos— que participarón activamente, destacaron el compromiso de los estudiantes por preservar las tradiciones chilenas y fomentar el sentido de identidad nacional.</p>
-
-
-      <blockquote class="border-l-4 border-yellow-400 pl-4 italic text-gray-600">
-        “Fue una experiencia muy bonita. Pudimos compartir, aprender y disfrutar juntos como comunidad”, comentó una estudiante de tercero medio que participó en el grupo de danza folclórica.
-      </blockquote>
-
-      <div class="my-6">
-        <img src="/src/assets/images/noticias/deco.jpg" alt="Estudiantes celebrando Fiestas Patrias" class="w-1/2 max-w-3xl mx-auto rounded shadow-md" />
-        <p class="text-sm text-gray-500 text-center mt-2">Estudiantes en trajes tipicos</p>
-      </div>
-
-      <p>En esta oportunidad, el liceo rayen mapu abrió las fronteras a nuestros países hermanos y todos los estudiantes extranjeros pudieron disfrutar de la música y gastronomía de su país y del nuestro.</p>
-
-      <div class="my-6">
-        <img src="/src/assets/images/noticias/extran.jpg" alt="Estudiantes celebrando Fiestas Patrias" class="w-1/2 max-w-3xl mx-auto rounded shadow-md" />
-        <p class="text-sm text-gray-500 text-center mt-2">Estudiantes de haití</p>
-      </div>
-      
-        <p>La jornada cerró con una cuecada masiva en la cancha principal, donde todos los cursos se unieron para bailar y celebrar con orgullo las raíces de nuestro país.</p>
-      </div>
-
-    <p class="mt-8 text-sm text-gray-500 text-right">Fotografía: Archivo institucional</p>
-    
-  </article>
-</main>
-
-
+      <p class="mt-8 text-sm text-gray-500 text-right">Fotografía: Archivo institucional</p>
+    </article>
+  </main>
 </Layout>

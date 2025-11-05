@@ -1,58 +1,71 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../layouts/Layout.astro';
+import brigadaImg from '../../assets/images/noticias/brigada.jpg';
+import eco1Img from '../../assets/images/noticias/eco1.jpg';
+import planta1Img from '../../assets/images/noticias/planta1.jpg';
 ---
 
 <Layout>
-
-
   <main class="container mx-auto px-4 py-8">
-  <article class="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
+    <article class="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
+      <!-- Imagen destacada -->
+      <img
+        src={brigadaImg.src}
+        alt="Taller de medio ambiente"
+        class="w-full h-64 object-cover rounded mb-6 shadow-md"
+      />
 
-    <!-- Imagen destacada -->
-    <img src="/src/assets/images/noticias/brigada.jpg" alt="Taller de medio ambiente" class="w-full h-64 object-cover rounded mb-6 shadow-md" />
+      <!-- Título y metadatos -->
+      <h1 class="text-3xl font-bold mb-2 text-gray-800">
+        Brigada Ecológica impulsa la conciencia ambiental con la plantación de árboles
+      </h1>
+      <p class="text-sm text-gray-500 mb-6">Publicado el 22 de agosto de 2025 · Área Ambiental</p>
 
-    <!-- Título y metadatos -->
-    <h1 class="text-3xl font-bold mb-2 text-gray-800">Brigada Ecológica impulsa la conciencia ambiental con la plantación de arboles</h1>
-    <p class="text-sm text-gray-500 mb-6">Publicado el 22 de agosto de 2025 · Área Ambiental</p>
+      <!-- Cuerpo de la noticia -->
+      <div class="space-y-4 text-gray-700 leading-relaxed text-justify">
+        <p>
+          En el marco de las actividades del Área Ambiental, estudiantes del <strong>Liceo Rayen Mapu</strong> participaron en un <strong>taller forestal</strong> organizado por la Brigada Ecológica, con el objetivo de fomentar la conciencia ambiental y promover prácticas sostenibles dentro de la comunidad educativa.
+        </p>
 
-    <!-- Cuerpo de la noticia -->
-    <div class="space-y-4 text-gray-700 leading-relaxed text-justify">
-      <p>
-        En el marco de las actividades del Área Ambiental, estudiantes del <strong>Liceo Rayen Mapu</strong> participaron en un <strong>taller forestal</strong> organizado por la Brigada Ecológica, con el objetivo de fomentar la conciencia ambiental y promover prácticas sostenibles dentro de la comunidad educativa.
-      </p>
+        <p>
+          Durante la jornada, se realizaron charlas interactivas sobre el impacto de los residuos en el entorno, la importancia de cuidar la vegetación de la isla, y una explicación de cómo plantar adecuadamente distintos tipos de árboles y plantas. La actividad buscó sensibilizar sobre la importancia de mantener nuestro entorno lo más limpio y sano.
+        </p>
 
-      <p>
-        Durante la jornada, se realizaron charlas interactivas sobre el impacto de los residuos en el entorno, la importancia de cuidar la vegetación de la isla , y una explicación de como plantar adecuadamente distintos tipos de arboles y plantas. La actividad buscó sensibilizar sobre la importancia de mantener nuestro entorno lo mas limpio y sano.
-      </p>
+        <!-- Imagen intermedia -->
+        <div class="my-6">
+          <img
+            src={eco1Img.src}
+            alt="Estudiantes presentando materiales reciclados"
+            class="w-1/2 max-w-3xl mx-auto rounded shadow-md"
+          />
+          <p class="text-sm text-gray-500 text-center mt-2">Charla ambiental con estudiantes y docentes</p>
+        </div>
+
+        <blockquote class="border-l-4 border-yellow-400 pl-4 italic text-gray-600">
+          “Fue una experiencia enriquecedora. Aprendimos que pequeñas acciones pueden generar grandes cambios en nuestro entorno”, comentó una integrante de la brigada ecológica.
+        </blockquote>
+
+        <p>
+          El taller concluyó con la plantación de distintos árboles alrededor de la institución, como parte de una campaña permanente del cuidado del medio ambiente.
+        </p>
+      </div>
 
       <!-- Imagen intermedia -->
       <div class="my-6">
-        <img src="/src/assets/images/noticias/eco1.jpg" alt="Estudiantes presentando materiales reciclados" class="w-1/2 max-w-3xl mx-auto rounded shadow-md" />
-        <p class="text-sm text-gray-500 text-center mt-2">Charla ambiental con estudiantes y docentes</p>
+        <img
+          src={planta1Img.src}
+          alt="Estudiantes presentando materiales reciclados"
+          class="w-1/2 max-w-3xl mx-auto rounded shadow-md"
+        />
+        <p class="text-sm text-gray-500 text-center mt-2">Plantación de árbol en liceo</p>
       </div>
-
-      <blockquote class="border-l-4 border-yellow-400 pl-4 italic text-gray-600">
-        “Fue una experiencia enriquecedora. Aprendimos que pequeñas acciones pueden generar grandes cambios en nuestro entorno”, comentó una integrante de la brigada ecológica.
-      </blockquote>
 
       <p>
-        El taller concluyó con la plantacion de distintos arboles alrededor de la institución, como parte de una campaña permanente del cuidado del medio ambiente. 
+        La iniciativa fue valorada por docentes y estudiantes como un paso concreto hacia una cultura escolar más responsable y comprometida con el medio ambiente.
       </p>
-    </div>
 
-    <!-- Imagen intermedia -->
-      <div class="my-6">
-        <img src="/src/assets/images/noticias/planta1.jpg" alt="Estudiantes presentando materiales reciclados" class="w-1/2 max-w-3xl mx-auto rounded shadow-md" />
-        <p class="text-sm text-gray-500 text-center mt-2">plantación de arbol en liceo</p>
-      </div>
-
-
-    <p>La iniciativa fue valorada por docentes y estudiantes como un paso concreto hacia una cultura escolar más responsable y comprometida con el medio ambiente.   
-    </p>
-
-    <!-- Créditos -->
-    <p class="mt-8 text-sm text-gray-500 text-right">Fotografía: Área Ambiental del Liceo Rayen Mapu</p>
-  </article>
-</main>
-
+      <!-- Créditos -->
+      <p class="mt-8 text-sm text-gray-500 text-right">Fotografía: Área Ambiental del Liceo Rayen Mapu</p>
+    </article>
+  </main>
 </Layout>
