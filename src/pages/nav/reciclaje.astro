@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout>
+  <div class="max-w-5xl mx-auto px-4 my-12">
+    <section
+      class="relative rounded-lg shadow-lg overflow-hidden w-full h-[600px] bg-cover bg-center"
+      style="background-image: url('/src/assets/images/menu/reci.jpg');"
+    >
+      <!-- Capa oscura -->
+      <div class="absolute inset-0 bg-black/60 z-0"></div>
+
+      <!-- Contenido con fuente ajustada -->
+      <div class="relative z-10 h-full flex flex-col justify-center px-10 py-16">
+        <h3 class="text-center text-3xl font-semibold text-white mb-4">Proceso de Reciclaje</h3>
+
+        <p class="text-white text-base leading-relaxed mb-2">
+          El <strong>proceso de reciclaje en el liceo</strong> se organiza en varias etapas para asegurar una correcta separación de los materiales:
+        </p>
+
+        <h4 class="text-white font-semibold mt-5 mb-1 text-lg">Recolección</h4>
+        <p class="text-white text-base leading-relaxed">
+          Se colocan puntos de reciclaje en diferentes áreas del liceo, como salas de clases, pasillos y la cafetería. Cada punto tiene contenedores separados para distintos tipos de residuos.
+        </p>
+
+        <h4 class="text-white font-semibold mt-5 mb-1 text-lg">Separación de materiales</h4>
+        <p class="text-white text-base leading-relaxed">
+          Los estudiantes, con la ayuda de la brigada, clasifican los residuos en las siguientes categorías principales:
+        </p>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-white text-base leading-relaxed">
+          <li><strong>Plástico:</strong> Botellas de bebidas, envases de yogurt y otros plásticos duros.</li>
+          <li><strong>Cartón y Papel:</strong> Cajas, cuadernos, folletos y hojas de papel.</li>
+          <li><strong>Latas:</strong> Envases de aluminio.</li>
+        </ul>
+
+        <h4 class="text-white font-semibold mt-5 mb-1 text-lg">Acopio y entrega</h4>
+        <p class="text-white text-base leading-relaxed">
+          Una vez que los contenedores se llenan, los materiales reciclables son recolectados y almacenados en un área de acopio. Periódicamente, estos materiales son entregados a empresas o centros de reciclaje locales, asegurando que se les dé una segunda vida.
+        </p>
+      </div>
+    </section>
+  </div>
+</Layout>

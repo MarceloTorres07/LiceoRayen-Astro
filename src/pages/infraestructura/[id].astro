@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getInfraestructura } from '../../data/infraestructura';
+import type { InfraestructuraInterface } from '../../data/infraestructura';
+
+export async function getStaticPaths() {
+  const espacios: InfraestructuraInterface[] = await getInfraestructura();
+
+  return espacios.map((espacio) => ({
+    params: { id: espacio.id },
+    props: { espacio },
+  }));
+}
+
+const { espacio } = Astro.props;
+---
+
+<Layout>
+  <div class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto py-8 px-4 max-w-4xl">
+      <a href="/infraestructura/salas.html" class="text-blue-600 hover:underline mb-6 block">&larr; Volver a la lista</a>
+
+      <div class="border border-blue-300 rounded-lg bg-white shadow-lg overflow-hidden flex flex-col md:flex-row">
+        <div class="md:w-2/5 flex-shrink-0 bg-gray-50 flex items-center justify-center p-4">
+          <img src={espacio.imagen} alt={`Imagen de ${espacio.titulo}`} class="max-w-full max-h-96 object-contain rounded" />
+        </div>
+
+        <div class="p-6 md:w-3/5">
+          <h1 class="text-3xl font-bold text-gray-800 mb-2">{espacio.titulo}</h1>
+          <div class="text-left space-y-2 text-gray-700">
+            <p><strong>Categoría:</strong> {espacio.categoria}</p>
+            <p><strong>Descripción:</strong> {espacio.descripcion}</p>
+            <p><strong>Capacidad:</strong> {espacio.capacidad} personas</p>
+            <p><strong>Estado:</strong> {espacio.estado}</p>
+            <div>
+              <p><strong>Equipamiento:</strong></p>
+              <ul class="list-disc list-inside pl-4">
+                {espacio.equipamiento.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

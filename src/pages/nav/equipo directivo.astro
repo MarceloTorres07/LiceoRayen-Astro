@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import EquipoComponent from '../../components/EquipoComponent.astro';
+import equipo from '../../data/Equipo.json';
+
+---
+
+<Layout>
+      
+      <div class="md:col-span-3 space-y-4 px-4 py-8">
+    {equipo.map((persona) => (
+      <EquipoComponent
+        nombre={persona.nombre}
+        cargo={persona.cargo}
+        descripcion={persona.descripcion}
+      />
+    ))}
+  </div>
+
+
+</Layout>

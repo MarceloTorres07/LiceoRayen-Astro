@@ -1,0 +1,123 @@
+[
+  {
+    "id": "01",
+    "titulo": "Salas de Clases",
+    "categoria": "Aula",
+    "descripcion": "El liceo cuenta con 18 salas de clases diseñadas para fomentar el aprendizaje activo y colaborativo. Cada sala está equipada con mobiliario ergonómico, pizarras tradicionales y digitales, y recursos audiovisuales que permiten una enseñanza dinámica. Se utilizan para clases teóricas, exposiciones y actividades grupales en todos los niveles educativos.",
+    "imagen": "/src/assets/images/salas/sala3.jpg",
+    "link": "/infraestructura/aula",
+    "capacidad": 30,
+    "estado": "Operativo",
+    "equipamiento": ["Pizarras", "Proyector", "Mesas", "Sillas"] 
+  },
+  {
+    "id": "02",
+    "titulo": "Laboratorio de Ciencias",
+    "categoria": "Laboratorio",
+    "descripcion": "Este laboratorio está acondicionado para la enseñanza práctica de Biología, Química y Física. Cuenta con estaciones de trabajo individuales, microscopios, reactivos, material de vidrio y equipos de medición. Es un espacio donde los estudiantes desarrollan habilidades científicas mediante experimentación, análisis y trabajo en equipo.",
+    "imagen": "/src/assets/images/salas/Lab+de+Ciencia.jpeg",
+    "link": "/infraestructura/laboratorio",
+    "capacidad": 25,
+    "estado": "Operativo",
+    "equipamiento": ["Microscopios", "Reactivos", "Mesas de laboratorio"]
+  },
+  {
+    "id": "03",
+    "titulo": "Laboratorio de Computación",
+    "categoria": "Laboratorio",
+    "descripcion": "Sala equipada con computadores modernos, acceso a internet y software educativo. Se utiliza para clases de informática, programación, diseño gráfico y apoyo en otras asignaturas. El espacio promueve el desarrollo de competencias digitales y el uso responsable de la tecnología.",
+    "imagen": "/src/assets/images/salas/Sala+Informatica.jpeg",
+    "link": "/infraestructura/computacion",
+    "capacidad": 28,
+    "estado": "Operativo",
+    "equipamiento": ["PCs", "Proyector", "Red WiFi"]
+  },
+  {
+    "id": "04",
+    "titulo": "Sala de Música",
+    "categoria": "Aula Especializada",
+    "descripcion": "Espacio acondicionado con instrumentos musicales como guitarras, teclados, percusión y equipos de sonido. Se utiliza para clases de expresión artística, ensayos y presentaciones. Fomenta la creatividad, el trabajo en conjunto y el desarrollo del talento musical de los estudiantes.",
+    "imagen": "/src/assets/images/salas/Sala+de+Musica.jpeg",
+    "link": "/infraestructura/Musica",
+    "capacidad": 20,
+    "estado": "Operativo",
+    "equipamiento": ["Guitarras", "Teclados", "Percusión"]
+  },
+  {
+    "id": "05",
+    "titulo": "Biblioteca",
+    "categoria": "Servicios",
+    "descripcion": "Ambiente silencioso y acogedor con una amplia colección de libros, revistas y recursos digitales. Dispone de mesas de lectura, computadores y zonas de estudio. Es un espacio clave para la investigación, el fomento de la lectura y el aprendizaje autónomo.",
+    "imagen": "/src/assets/images/salas/Biblioteca.jpeg",
+    "link": "/infraestructura/biblioteca",
+    "capacidad": 40,
+    "estado": "Operativo",
+    "equipamiento": ["Estanterías", "Mesas de lectura", "Computadores"]
+  },
+  {
+    "id": "06",
+    "titulo": "Gimnasio Techado",
+    "categoria": "Deportivo",
+    "descripcion": "Área deportiva cubierta que permite la práctica de diversas disciplinas como voleibol, básquetbol y gimnasia. Cuenta con graderías, iluminación adecuada y equipamiento deportivo. Se utiliza para clases de educación física, eventos escolares y actividades recreativas.",
+    "imagen": "/src/assets/images/salas/Gimnasio.jpeg",
+    "link": "/infraestructura/gimnasio",
+    "capacidad": 200,
+    "estado": "Operativo",
+    "equipamiento": ["Cancha", "Graderías", "Equipos deportivos"]
+  },
+  {
+    "id": "07",
+    "titulo": "Cancha de Pasto Sintético",
+    "categoria": "Deportivo",
+    "descripcion": "Espacio al aire libre con césped sintético ideal para fútbol y otras actividades deportivas. Ofrece una superficie segura y resistente a las condiciones climáticas. Es utilizada tanto en clases como en torneos internos y recreación estudiantil.",
+    "imagen": "/src/assets/images/salas/cancha.jpg",
+    "link": "/infraestructura/cancha",
+    "capacidad": 150,
+    "estado": "Operativo",
+    "equipamiento": ["Arcos", "Balones", "Iluminación"]
+  },
+  {
+    "id": "08",
+    "titulo": "Casino Escolar",
+    "categoria": "Servicios",
+    "descripcion": "Comedor limpio y cómodo donde se ofrece alimentación saludable a estudiantes y personal. Cuenta con cocina industrial, mesas y sillas organizadas para facilitar el servicio. Es un espacio fundamental para el bienestar y la convivencia escolar.",
+    "imagen": "/src/assets/images/salas/Comedor.jpeg",
+    "link": "/infraestructura/casino",
+    "capacidad": 100,
+    "estado": "Operativo",
+    "equipamiento": ["Mesas", "Sillas", "Cocina industrial"]
+  },
+  {
+    "id": "09",
+    "titulo": "Taller de Construcción",
+    "categoria": "Taller Técnico",
+    "descripcion": "Espacio técnico para la especialidad de Construcción, equipado con herramientas, materiales y mesas de trabajo. Se imparten clases prácticas sobre albañilería, estructuras, instalaciones y seguridad laboral. Promueve el aprendizaje aplicado y el desarrollo de habilidades técnicas.",
+    "imagen": "/src/assets/images/salas/contruc.jpg",
+    "link": "/infraestructura/Tcon",
+    "capacidad": 20,
+    "estado": "Operativo",
+    "equipamiento": ["Herramientas", "Mesas de trabajo", "Materiales de construcción"]
+  },
+  {
+    "id": "10",
+    "titulo": "Taller de Gastronomía",
+    "categoria": "Taller Técnico",
+    "descripcion": "Cocina equipada con utensilios, mesones de preparación y electrodomésticos industriales. Se utiliza para la formación en cocina nacional e internacional, higiene y manipulación de alimentos. Fomenta la creatividad culinaria y la preparación profesional de los estudiantes.",
+    "imagen": "/src/assets/images/salas/gastro.jpg",
+    "link": "/infraestructura/Tgas",
+    "capacidad": 15,
+    "estado": "Operativo",
+    "equipamiento": ["Cocinas", "Utensilios", "Mesas de preparación"]
+  },
+  {
+    "id": "11",
+    "titulo": "Radio Escolar",
+    "categoria": "Aula Especializada",
+    "descripcion": "Cabina equipada con micrófonos, consola de audio y software de edición. Es un espacio para la expresión comunicacional, donde los estudiantes producen programas, entrevistas y cápsulas informativas. Desarrolla habilidades en locución, producción y trabajo en medios.",
+    "imagen": "/src/assets/images/salas/Radio.jpeg",
+    "link": "/infraestructura/radio",
+    "capacidad": 5,
+    "estado": "Operativo",
+    "equipamiento": ["Micrófonos", "Consola", "Computadores"]
+  }
+]

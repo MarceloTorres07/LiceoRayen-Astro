@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout>
+  <div class="max-w-5xl mx-auto px-4 my-12">
+    <section
+      class="relative rounded-lg shadow-lg overflow-hidden w-full h-[600px] bg-cover bg-center"
+      style="background-image: url('/src/assets/images/menu/eco.jpg');"
+    >
+      <!-- Capa oscura separada -->
+      <div class="absolute inset-0 bg-black/60 z-0"></div>
+
+      <!-- Contenido encima con fuente más pequeña -->
+      <div class="relative z-10 p-10 h-full flex flex-col justify-center">
+        <h3 class="text-center text-3xl font-semibold text-white mb-4">Brigada Ecológica</h3>
+
+        <p class="text-white text-base leading-relaxed">
+          La <strong>Brigada Ecológica del Liceo Rayen Mapu</strong> es un grupo de estudiantes comprometidos con el medio ambiente y la sostenibilidad. Funciona como un taller extraprogramático, donde los alumnos participan de forma voluntaria para llevar a cabo proyectos relacionados con el cuidado del entorno.
+        </p>
+
+        <p class="text-white text-base leading-relaxed mt-3">
+          El principal objetivo de la brigada es crear conciencia ambiental dentro y fuera de la comunidad escolar. Sus actividades se centran en:
+        </p>
+
+        <ul class="list-disc pl-5 mt-3 space-y-1 text-white text-base leading-relaxed">
+          <li><strong>Gestión de residuos:</strong> Implementan programas de reciclaje en el liceo, separando plásticos, cartones y otros materiales.</li>
+          <li><strong>Educación ambiental:</strong> Organizan charlas y campañas para informar a sus compañeros sobre temas como el cambio climático, la conservación de la biodiversidad y el uso responsable del agua.</li>
+          <li><strong>Jornadas de limpieza:</strong> Participan en la limpieza de espacios públicos, como playas o parques, promoviendo el cuidado del entorno en Quellón.</li>
+        </ul>
+
+        <p class="text-white text-base leading-relaxed mt-3">
+          La brigada ecológica es una parte fundamental del compromiso del liceo con la educación integral, fomentando en los estudiantes una conciencia crítica y un rol activo en la protección del planeta.
+        </p>
+      </div>
+    </section>
+  </div>
+</Layout>

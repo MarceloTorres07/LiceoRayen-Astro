@@ -1,0 +1,26 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AsignaturaComponent from '../../components/AsignaturaComponent.astro';
+import asignaturas from '../../data/Asignaturas1.json';
+---
+
+<Layout>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-4">
+    <!-- Espacio vacío a la izquierda en pantallas medianas -->
+    <div class="hidden md:block"></div>
+
+    <!-- Contenido principal centrado -->
+    <div class="md:col-span-3">
+      <section class="my-4">
+        <div class="border p-4 rounded shadow bg-white">
+          {asignaturas.map((item) => (
+            <AsignaturaComponent
+              nombre={item.nombre}
+              descripcion={item.descripcion}
+            />
+          ))}
+        </div>
+      </section>
+    </div>
+  </div>
+</Layout>

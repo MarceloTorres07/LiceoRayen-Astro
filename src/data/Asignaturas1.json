@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Lenguaje y Comunicación",
+    "descripcion": "Se imparte durante los cuatro años de enseñanza media, con énfasis en comprensión lectora, expresión oral y escrita. (5 horas semanales)"
+  },
+  {
+    "nombre": "Matemáticas",
+    "descripcion": "Desarrollo de pensamiento lógico y resolución de problemas. Se mantiene como asignatura base en todos los niveles. (5 horas semanales)"
+  },
+  {
+    "nombre": "Historia y Ciencias Sociales",
+    "descripcion": "Estudio de procesos históricos, ciudadanía y cultura. Presente en toda la formación media. (3 horas semanales)"
+  },
+  {
+    "nombre": "Ciencias Naturales",
+    "descripcion": "Separado en 3 materias, estas incluyen Biología, Química y Física. (9 horas semanales)"
+  },
+  {
+    "nombre": "Educación Física",
+    "descripcion": "Promueve hábitos saludables, trabajo en equipo y desarrollo físico. Se imparte en todos los niveles. (2 horas semanales)"
+  },
+  {
+    "nombre": "Orientación",
+    "descripcion": "Apoya el desarrollo personal, vocacional y socioemocional del estudiante. Presente en cada nivel. (1 hora semanal)"
+  },
+  {
+    "nombre": "Artes Visuales o Artes Musicales",
+    "descripcion": "Promueve la creatividad y la apreciación de las expresiones artísticas. (2 horas semanales)"
+  },
+  {
+    "nombre": "Religión o Clase Ética",
+    "descripcion": "Generalmente, se ofrece a elección de los estudiantes y sus familias dependiendo de sus creencias. (2 horas semanales)"
+  },
+  {
+    "nombre": "Tecnología",
+    "descripcion": "Introduce a los estudiantes en el uso de herramientas tecnológicas y el pensamiento computacional. (2 horas semanales)"
+  },
+  {
+    "nombre": "Inglés",
+    "descripcion": "Se centra en el desarrollo de las habilidades de comunicación en un segundo idioma. (2 horas semanales)"
+  }
+]

@@ -1,0 +1,30 @@
+---
+import { menuItems } from '../data/ItemMenu'
+---
+
+<nav class="hidden md:flex space-x-3 font-medium relative z-50">
+  {menuItems.map(item => (
+    item.submenu ? (
+      <div class="relative group">
+        <button class="px-3 py-2 hover:text-yellow-400">{item.label}</button>
+        <ul class="absolute top-full left-0 hidden group-hover:flex hover:flex flex-col gap-y-2 pb-2 pointer-events-auto w-max bg-black text-white mt-1 rounded shadow-lg z-50">
+          {item.submenu.map((sub, subIndex) => (
+            <li>
+              <a
+                href={sub.href}
+                class="px-4 py-3 whitespace-nowrap hover:text-yellow-400 transition"
+              >
+                {sub.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ) : (
+      <a href={item.href} class="px-3 py-2 hover:text-yellow-400">{item.label}</a>
+    )
+  ))}
+</nav>
+
+
+

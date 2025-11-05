@@ -1,0 +1,26 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import { getInfraestructura } from '../../data/infraestructura';
+import type { InfraestructuraInterface } from '../../data/infraestructura';
+
+const espacios: InfraestructuraInterface[] = await getInfraestructura();
+
+---
+
+<Layout>
+
+   <h1 class="text-3xl font-bold text-center mt-10 mb-6">Infraestructura Escolar</h1>
+
+    <section class="flex flex-wrap justify-center gap-6 px-4 pb-10">
+      {espacios.map((espacio) => (
+        <a href={`/infraestructura/${espacio.id}`} class="bg-white rounded-lg shadow-md w-72 overflow-hidden hover:shadow-lg transition">
+          <img src={espacio.imagen} alt={espacio.titulo} class="w-full h-44 object-cover" />
+          <div class="p-4">
+            <h2 class="text-lg font-semibold mb-2">{espacio.titulo}</h2>
+            <p class="text-sm text-gray-600">{espacio.categoria}</p>
+          </div>
+        </a>
+      ))}
+    </section>
+
+</Layout>

@@ -1,0 +1,21 @@
+---
+import talleres from '../data/talleres.json';
+---
+
+<div class="max-w-5xl mx-auto px-4 my-12 flex flex-col space-y-8">
+  {talleres.map((taller) => (
+    <div
+      class="relative rounded shadow overflow-hidden bg-cover bg-center w-full h-[350px]"
+      style={`background-image: url('${taller.imagen}');`}
+    >
+      <div class="absolute inset-0 bg-black/60 z-0"></div>
+
+      <div class="relative z-10 p-6 flex flex-col justify-between h-full">
+        <h4 class="text-white text-xl font-bold mb-2">{taller.nombre}</h4>
+        {taller.descripcion.map((parrafo) => (
+          <p class="text-white text-sm leading-relaxed mb-2">{parrafo}</p>
+        ))}
+      </div>
+    </div>
+  ))}
+</div>

@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+import { menuItems } from '../data/ItemMenu'
+---
+
+
+<!-- Menú responsivo -->
+<nav id="mobile-menu" class="hidden md:hidden bg-black text-white px-4 py-4 space-y-4 text-sm">
+  {menuItems.map((item) => (
+    <div>
+      <h6 class="uppercase font-bold text-yellow-400 mb-2">{item.label}</h6>
+      {item.submenu
+        ? item.submenu.map((sub) => (
+            <a href={sub.href} class="block pl-2 hover:text-yellow-300">{sub.label}</a>
+          ))
+        : (
+            <a href={item.href} class="block pl-2 hover:text-yellow-300">{item.label}</a>
+          )}
+    </div>
+  ))}
+</nav>
+
+
+
+<!-- Script para mostrar/ocultar el menú -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (toggleButton && mobileMenu) {
+      toggleButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  });
+</script>

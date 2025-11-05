@@ -1,0 +1,50 @@
+[
+  {
+    "titulo": "Campeonato deportivo interno",
+    "descripcion": "El área de Educación Física organizó un campeonato interno entre estudiantes y docentes.",
+    "fecha": "4 de septiembre de 2025",
+    "autor": "Área de Educación Física",
+    "imagen": "../src/assets/images/noticias/torneo.jpg",
+    "enlace": "/blog/campeonato-deportivo.html"
+  },
+  {
+    "titulo": "Visita al Puente Chacao",
+    "descripcion": "Estudiantes del liceo rayen mapu hacen historia con inédita visita al Puente Chacao.",
+    "fecha": "28 de agosto de 2025",
+    "autor": "Equipo de comunicaciones",
+    "imagen": "../src/assets/images/noticias/Puente.jpg",
+    "enlace": "/blog/visita-puente-chacao.html"
+  },
+  {
+    "titulo": "Taller sobre el medio ambiente",
+    "descripcion": "Estudiantes de la brigada ecológica realizaron actividades de concientización sobre la vegetación.",
+    "fecha": "22 de agosto de 2025",
+    "autor": "Área Ambiental",
+    "imagen": "../src/assets/images/noticias/planta1.jpg",
+    "enlace": "/blog/arbol-liceo-rayen.html"
+  },
+  {
+    "titulo": "Campeonato de matemáticas",
+    "descripcion": "Estudiantes del liceo rayen mapu participaron de un campeonato a nivel nacional.",
+    "fecha": "2 de junio de 2025",
+    "autor": "Equipo de comunicaciones",
+    "imagen": "../src/assets/images/noticias/mate1.jpg",
+    "enlace": "/blog/campeonato-mate-frontera.html"
+  },
+  {
+    "titulo": "Visita del (CR)2 al liceo",
+    "descripcion": "Estudiantes del liceo participaron en charlas sobre impactos del cambio climático y la marea roja.",
+    "fecha": "20 de mayo de 2025",
+    "autor": "Equipo de comunicaciones",
+    "imagen": "../src/assets/images/noticias/cr2.jpg",
+    "enlace": "/blog/visita-charla-cr2.html"
+  },
+  {
+    "titulo": "Distinción a ex alumna",
+    "descripcion": "Ex alumna del Liceo Rayen Mapu de Quellón obtuvo distinción a las trayectorias educativas.",
+    "fecha": "5 de mayo de 2025",
+    "autor": "Área de comunicaciones",
+    "imagen": "../src/assets/images/noticias/alum.jpg",
+    "enlace": "/blog/ex-alumna-rayen.html"
+  }
+]

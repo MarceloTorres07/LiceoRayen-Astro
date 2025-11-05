@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Francisco Javier Serón Serón",
+    "cargo": "Director del Liceo Rayen Mapu",
+    "descripcion": "Es la máxima autoridad del liceo. Su rol principal es liderar el proyecto educativo institucional y velar por su cumplimiento."
+  },
+  {
+    "nombre": "Alejandro Maximino Pozo Parraguez",
+    "cargo": "Jefe de Producción del Liceo Rayen Mapu",
+    "descripcion": "Su función es coordinar la parte técnica y la producción del establecimiento, asegurando que los estudiantes desarrollen sus habilidades prácticas de manera efectiva."
+  },
+  {
+    "nombre": "Wilson Valenzuela Seguel y Rosa Pérez",
+    "cargo": "Jefes de la Unidad Técnica Pedagógica (UTP)",
+    "descripcion": "La UTP se encarga de la planificación académica y curricular, supervisando el trabajo de los docentes y garantizando la calidad de la enseñanza."
+  },
+  {
+    "nombre": "Norma Damaris Paillán Cisterna",
+    "cargo": "Encargada de Convivencia Escolar",
+    "descripcion": "Este rol se enfoca en el desarrollo de un ambiente escolar positivo y seguro, previniendo conflictos y promoviendo el bienestar de toda la comunidad educativa."
+  },
+  {
+    "nombre": "Ana Heinz Añazco",
+    "cargo": "Secretaria de Dirección",
+    "descripcion": "Se encarga de la gestión administrativa y de la comunicación dentro del equipo directivo."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nombre": "Lenguaje y Comunicación",
+    "descripcion": "Se imparte durante los cuatro años de enseñanza media, con énfasis en comprensión lectora, expresión oral y escrita. (4 horas semanales)"
+  },
+  {
+    "nombre": "Matemáticas",
+    "descripcion": "Desarrollo de pensamiento lógico y resolución de problemas. Se mantiene como asignatura base en todos los niveles. (3 horas semanales)"
+  },
+  {
+    "nombre": "Historia y Ciencias Sociales",
+    "descripcion": "Estudio de procesos históricos, ciudadanía y cultura. Presente en toda la formación media. (3 horas semanales)"
+  },
+  {
+    "nombre": "Biología",
+    "descripcion": "Ciencia que estudia a los seres vivos. Aborda desde la estructura de las células, que son las unidades básicas de la vida. Es una de las 2 Ciencia a elección. (9 horas semanales)"
+  },
+  {
+    "nombre": "Física",
+    "descripcion": "Ciencia que estudia las propiedades de la materia y la energía, y cómo interactúan en el espacio y el tiempo. Es una de las 2 Ciencia a elección. (9 horas semanales)"
+  },
+  {
+    "nombre": "Química",
+    "descripcion": "Ciencia que estudia la composición, estructura y propiedades de la materia, así como los cambios que esta experimenta durante las reacciones químicas. Es una de las 2 Ciencia a elección. (9 horas semanales)"
+  },
+  {
+    "nombre": "Educación Física",
+    "descripcion": "Promueve hábitos saludables, trabajo en equipo y desarrollo físico. Se imparte en todos los niveles. (2 horas semanales)"
+  },
+  {
+    "nombre": "Artes Visuales o Artes Musicales",
+    "descripcion": "Promueve la creatividad y la apreciación de las expresiones artísticas. (2 horas semanales)"
+  },
+  {
+    "nombre": "Filosofía",
+    "descripcion": "Estudio de preguntas fundamentales sobre la existencia, el conocimiento, la moral, la razón, la mente y el lenguaje. (2 horas semanales)"
+  },
+  {
+    "nombre": "Inglés",
+    "descripcion": "Se centra en el desarrollo de las habilidades de comunicación en un segundo idioma. (3 horas semanales)"
+  },
+  {
+    "nombre": "Educación Ciudadana",
+    "descripcion": "Esta materia te prepara para ser un ciudadano activo y responsable. (2 horas semanales)"
+  }
+]

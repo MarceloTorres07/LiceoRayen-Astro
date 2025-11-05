@@ -1,0 +1,19 @@
+---
+import Card1Component from './Card1Component.astro';
+import noticias from '../data/noticias.json';
+---
+
+<h2 class="text-2xl font-bold mb-6">Noticias del Liceo</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  {noticias.map((noticia) => (
+    <Card1Component
+      titulo={noticia.titulo}
+      descripcion={noticia.descripcion}
+      fecha={noticia.fecha}
+      autor={noticia.autor}
+      imagen={noticia.imagen}
+      enlace={noticia.enlace}
+    />
+  ))}
+</div>

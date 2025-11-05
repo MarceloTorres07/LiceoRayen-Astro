@@ -1,0 +1,21 @@
+---
+import deportes from '../data/Deportes.json';
+---
+
+<div class="max-w-5xl mx-auto px-4 my-12 flex flex-col space-y-8">
+  {deportes.map((depor) => (
+    <div
+      class="relative rounded shadow overflow-hidden bg-cover bg-center w-full h-[350px]"
+      style={`background-image: url('${depor.imagen}');`}
+    >
+      <div class="absolute inset-0 bg-black/60 z-0"></div>
+
+      <div class="relative z-10 p-6 flex flex-col justify-between h-full">
+        <h4 class="text-white text-xl font-bold mb-2">{depor.nombre}</h4>
+        {depor.descripcion.map((parrafo) => (
+          <p class="text-white text-sm leading-relaxed mb-2">{parrafo}</p>
+        ))}
+      </div>
+    </div>
+  ))}
+</div>
