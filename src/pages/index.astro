@@ -1,23 +1,22 @@
 ---
-// index.astro
-import Layout from '../layouts/Layout.astro'
-import NoticiasComponent from '../components/NoticiasComponent.astro'
-import NoticiaPrincipalComponent from '../components/NoticiaPrincipalComponent.astro'
-import InfraestructuraComponent from '../components/InfraestructuraComponent.astro'
----
+import Layout from '../layouts/Layout.astro';
+import NoticiasComponent from '../components/NoticiasComponent.astro';
+import NoticiaPrincipalComponent from '../components/NoticiaPrincipalComponent.astro';
+import InfraestructuraComponent from '../components/InfraestructuraComponent.astro';
 
+import fiestasImg from '../assets/images/noticias/fiestas.jpg';
+---
 
 <Layout>
   <NoticiaPrincipalComponent
     titulo="Celebración de fiestas Patrias"
     fecha="12 de septiembre de 2025"
-    descripcion="Estudiantes del liceo rayen mapu realizaron actividades para celebrar las fiestas patrias."
-    imagen="../src/assets/images/noticias/fiestas.jpg"
+    descripcion="Estudiantes del liceo Rayen Mapu realizaron actividades para celebrar las fiestas patrias."
+    imagen={fiestasImg.src}
     alt="Inauguración del laboratorio"
     enlace="/blog/fiestas-patrias-liceo.html"
   />
+
   <NoticiasComponent />
-
   <InfraestructuraComponent />
-
 </Layout>
