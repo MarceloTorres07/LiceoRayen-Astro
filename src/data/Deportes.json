@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Fútbol",
-    "imagen": "/src/assets/images/menu/fut.jpg",
+    "imagen": "/assets/images/menu/fut.jpg",
     "descripcion": [
       "La selección de fútbol del liceo es un grupo de estudiantes que entrena de manera regular para representar a la institución en torneos.",
       "El objetivo del equipo es fomentar la disciplina, la estrategia de juego, la condición física y la camaradería.",
