@@ -24,7 +24,7 @@ export const menuItems = [
   {
     label: "TALLERES",
     submenu: [
-      { label: "PTU", href: "../nav/PTU.html" },
+      { label: "PTU", href: "../nav/PTU" },
       { label: "Complementarios", href: "../nav/complementarios" },
       { label: "Selecciones deportivas", href: "../nav/deportivos" },
     ],
