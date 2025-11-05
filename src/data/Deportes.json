@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Fútbol",
-    "imagen": "/src/assets/images/menu/fut.jpg",
+    "imagen": "/images/menu/fut.jpg",
     "descripcion": [
       "La selección de fútbol del liceo es un grupo de estudiantes que entrena de manera regular para representar a la institución en torneos.",
       "El objetivo del equipo es fomentar la disciplina, la estrategia de juego, la condición física y la camaradería.",
@@ -10,7 +10,7 @@
   },
   {
     "nombre": "Básquetbol",
-    "imagen": "/src/assets/images/menu/basq.jpg",
+    "imagen": "/images/menu/basq.jpg",
     "descripcion": [
       "La selección de básquetbol es un equipo de jóvenes dedicados a este deporte.",
       "Sus entrenamientos se centran en el desarrollo de la técnica individual, como el manejo del balón y los tiros al cesto, así como en la táctica de juego en equipo.",
