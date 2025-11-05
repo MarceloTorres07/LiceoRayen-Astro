@@ -4,7 +4,7 @@ export const menuItems = [
     label: "INSTITUCIÓN",
     submenu: [
       { label: "Historia", href: "../nav/historia.html" },
-      { label: "Equipo Directivo", href: "../nav/equipo directivo.html" },
+      { label: "Equipo Directivo", href: "/nav/equipo directivo.html" },
     ],
   },
   {
